@@ -22,7 +22,7 @@ if [[ $passWord == *$specialChar* ]];
    then
       ((count++))
 fi
-if [ $count -eq 1 ];
+if [ $count -le 1 ];
    then
        echo Weak
 fi
